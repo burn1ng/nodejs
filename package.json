@@ -1,0 +1,30 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "first app \u001b[D\u001b[D\u001b[D\u001b[Dnodejs app",
+  "main": "index.js",
+  "dependencies": {    
+  },
+  "devDependencies": {
+    "formidable": "^1.1.1",
+    "fs": "0.0.1-security",
+    "querystring": "^0.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burn1ng/nodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Andrei Dushkou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burn1ng/nodejs/issues"
+  },
+  "homepage": "https://github.com/burn1ng/nodejs#readme"
+}
