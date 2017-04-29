@@ -34,7 +34,7 @@ function upload(response, request) {
   console.log("parsing done");
 
 /* Возможна ошибка в Windows: попытка переименования уже существующего файла */
-  fs.rename(files.upload.path, "tmp/test.png", function(err) {
+  fs.rename(files.upload.path, "/tmp/test.png", function(err) {
     if (err) {
     fs.unlink("/tmp/test.png");
     fs.rename(files.upload.path, "/tmp/test.png");
