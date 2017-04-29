@@ -19,7 +19,7 @@
     "url": "git+https://github.com/burn1ng/nodejs.git"
   },
   "engines": {
-    "node": "^6.4.0",
+    "node": "6.4.0",
     "npm": "^3.10.3"
   },
   "keywords": [
